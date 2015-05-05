@@ -1,12 +1,12 @@
 .head{
 	background-color: #1e8cbe;
-	height: 45px;
+	height: 50px;
 }
 
 .main{
 
 	background-color: #283041;
-	height: 790px;
+	height: 1160px;
 	padding-top: 50px;
 }
 
@@ -38,4 +38,93 @@
 	margin: 50px auto 0 auto;
 	width: 200px;
 	border: 10px solid #191E28;
+}
+
+
+.arrow{
+
+	background-color: #FFFFFF;
+	height: 20px;
+	margin: 215px auto 0 auto;
+	width:50px;
+
+}
+
+.txtBlock{
+
+	background-color: #E3ECF3;
+	height: 190px;
+}
+.icons{
+
+	background-color: #FFFFFF;
+	height: 70px;
+	margin: 40px 75px 0 75px;
+
+	}
+
+.whiteBlock{
+
+	background-color: #FFFFFF;
+	height: 215px;
+	margin: 0px 10px 30px 10px;
+}
+
+.blockHolder{
+
+	background-color: #C7C9CE;
+	height: 1470px;
+	padding-top: 30px;
+	
+
+}
+
+.bottomBlock{
+
+	height: 150px;
+	border: 1px solid black;
+	padding-top: 100px;
+}
+
+.btn2{
+
+	width:205px;
+	height: 55px;
+	background-color: #2377B5;
+	margin: 0 auto;
+	border: 1px solid black;
+
+}
+
+.footerBlock{
+
+	background-color: #000000;
+	height: 130px;
+	padding-top: 10px;
+}
+
+.footerText ul li{
+
+	color:white;
+	list-style: none;
+	display: inline-block;
+	margin-right: 20px;
+	padding-top: 10px;
+	font-size: 10px;
+
+}
+
+.footerText ul{
+
+	margin: 0 auto;
+	text-align: center;
+	
+}
+
+.logo{
+
+
+	height: 25px;
+	background-color: #FFFFFF;
+	margin: 25px 160px 0 160px;
 }
