@@ -3,7 +3,7 @@
 	height: 45px;
 	padding-top: 5px;
 	position: fixed;
-	width: 90%
+	width: 85%
 
 
 
@@ -17,24 +17,41 @@
 	margin-left: 20px;
 	float: left;
 	margin-right: 20px;
+
 }
 
 .headBlk2{
 
 	width: 120px;
 	height: 35px;
-	background-color: #ffffff;
+	/*background-color: #ffffff;*/
 	float: left;
+	color: white;
+	text-align: center;
+	margin-top: 10px;
 	
 }
 .headBlue{
 
-	width: 10%;
+	width: 15%;
 	height: 50px;
 	background-color: #135A97;
-	float: right;
+	/*float: right;*/
+	position: fixed;
+	 top: 0%;
+    right: 0%;
+   
 
 	
+}
+
+.headBlue div{
+ text-align: center;
+    color: white;
+    position: relative;
+    top:15px;
+    font-size: 15px;
+
 }
 
 .main{
@@ -49,8 +66,14 @@
 	font-family: "Open Sans", sans-serif;
 	font-size: 40px;
 	text-align: center;
+	padding: 0 20px 0 20px 0;
 
 
+}
+
+.ltb{
+
+	color: #90C2E0;
 }
 
 .text2{
@@ -70,7 +93,18 @@
 	margin: 215px auto 0 auto;
 	width: 200px;
 	border: 10px solid #191E28;
+	text-align: center;
 }
+
+.homeBtn span{
+
+	color: white;
+	margin-top: 15px;
+	display: inline-block;
+	font-size: 20px;
+		
+}
+
 
 
 .arrow{
@@ -89,25 +123,61 @@
 }
 .icons{
 
-	background-color: #FFFFFF;
+	/*background-color: #FFFFFF;*/
 	height: 70px;
 	margin: 40px 75px 40px 75px;
+
 
 	}
 
 .grayBox1{
 	width: 20%;
-	background-color: #4F5A6D;
-	height: 55px;
+	background-color: #ffffff;
+	height: 70px;
 	float: left;
-	margin-top: 15px
+	/*margin-top: 15px*/
 }
 
 .grayBox2{
 	width: 78%;
-	background-color: #4F5A6D;
-	height: 55px;
+	background-color: #283041;
+	height: 70px;
 	float: right;
+	/*padding-top: 20px;*/
+	margin-top: 10px;
+	border: none;
+}
+
+.grayBox2 .boxText1{
+
+	color: white;
+	display: inline-block;
+	margin-bottom: 10px;
+	font-size: 22px;
+}
+
+.grayBox2 .boxText2{
+	color: #C5CDCE;
+	display: inline-block;
+}
+
+.txtBlock{
+
+
+	padding-top:50px;
+	height: 190px;
+
+}
+
+.bigTxt{
+
+	color: #324155;
+	text-align: center;
+	font-size: 25px;
+	padding: 10px 50px 10px 50px;
+
+	
+
 }
 
 .whiteBlock{
@@ -133,17 +203,20 @@
 
 	
 	height: 25px;
-	
-	background-color: #BCC8D0;
+	color: #354F66;
+	font-size: 20px;
+	/*background-color: #BCC8D0;*/
 	margin: 0 15px 20px 15px;
+	text-align: center;
 }
 
 .ltgrayBox3{
 
 	
 	height: 50px;
-	background-color: #BCC8D0;
+	/*background-color: #BCC8D0;*/
 	margin: 0 15px 0px 15px;
+	text-align: center;
 }
 
 
@@ -158,18 +231,33 @@
 
 .bottomBlock{
 
-	height: 150px;
-	padding-top: 100px;
+	height: 160px;
+	padding-top: 20px;
 	background-color: #E3ECF3
 }
 
 .btn2{
 
 	width:205px;
-	height: 55px;
+	height: 40px;
 	background-color: #2377B5;
-	margin: 0 auto;
-	border: 1px solid black;
+	margin: 30px auto;
+	/*border: 1px solid black;*/
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	padding-top: 15px;
+	
+
+}
+
+ .bigTxt2{
+
+	color: #324155;
+	text-align: center;
+	font-size: 25px;
+	padding: 0px 50px 10px 50px;
+
 
 }
 
@@ -202,7 +290,7 @@
 
 	width: 135px;
 	height: 25px;
-	background-color: #FFFFFF;
+	/*background-color: #FFFFFF;*/
 	margin: 25px auto 0 auto;
 }
 
