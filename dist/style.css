@@ -1,0 +1,41 @@
+.head{
+	background-color: #1e8cbe;
+	height: 45px;
+}
+
+.main{
+
+	background-color: #283041;
+	height: 790px;
+	padding-top: 50px;
+}
+
+.text1{
+	color: white;
+	font-family: "Open Sans", sans-serif;
+	border: 2px solid white;
+	font-size: 40px;
+	text-align: center;
+
+
+}
+
+.text2{
+
+	color: white;
+	font-family: "Open Sans", sans-serif;
+	border: 2px solid white;
+	font-size: 22px;
+	text-align: center;
+	margin-top: 60px;
+	padding: 0 50px 0 50px;
+}
+
+.homeBtn{
+
+	height:52px;
+	background-color: #2377B5;
+	margin: 50px auto 0 auto;
+	width: 200px;
+	border: 10px solid #191E28;
+}
