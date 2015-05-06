@@ -17,6 +17,9 @@
 	margin-left: 20px;
 	float: left;
 	margin-right: 20px;
+	background: #283041 url("images/logo.png") no-repeat;
+	background-size: 35px 35px;
+
 
 }
 
@@ -56,9 +59,12 @@
 
 .main{
 
-	background-color: #283041;
+	
 	height: 1220px;
 	padding-top: 170px;
+	background: #283041 url("images/crowd.jpg") no-repeat center center ;
+
+
 }
 
 .text1{
@@ -74,6 +80,7 @@
 .ltb{
 
 	color: #90C2E0;
+
 }
 
 .text2{
@@ -135,18 +142,38 @@
 	background-color: #ffffff;
 	height: 70px;
 	float: left;
+
 	/*margin-top: 15px*/
+}
+
+.tablet{
+
+	background: url("images/tablet.png") no-repeat center center;
+	background-size: 48px 48px;
 }
 
 .grayBox2{
 	width: 78%;
-	background-color: #283041;
+	/*background-color: #283041;*/
 	height: 70px;
 	float: right;
 	/*padding-top: 20px;*/
 	margin-top: 10px;
 	border: none;
 }
+
+.newspaper{
+
+	background: url("images/newspaper.png") no-repeat center center;
+	background-size: 48px 48px;
+}
+
+.paintbrush{
+
+	background: url("images/paint-brush.png") no-repeat center center;
+	background-size: 48px 48px;
+}
+
 
 .grayBox2 .boxText1{
 
