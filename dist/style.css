@@ -1,3 +1,10 @@
+html{
+
+	-webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;   
+    box-sizing: border-box; 
+}
+
 .head{
 	background-color: #1e8cbe;
 	height: 45px;
@@ -96,19 +103,20 @@
 .homeBtn{
 
 	height:52px;
-	background-color: #2377B5;
-	margin: 215px auto 0 auto;
+	margin: 100px auto 0 auto;
 	width: 200px;
-	border: 10px solid #191E28;
+	border: 10px solid rgba(25, 30, 40, .7);
 	text-align: center;
 }
 
 .homeBtn span{
 
 	color: white;
-	margin-top: 15px;
-	display: inline-block;
+	padding-top: 15px;
+	height: 37px;
+	display: block;
 	font-size: 20px;
+	background-color: #2377B5;
 		
 }
 
@@ -116,10 +124,14 @@
 
 .arrow{
 
-	background-color: #FFFFFF;
+	/*background-color: #FFFFFF;*/
 	height: 20px;
-	margin: 215px auto 135px auto;
+	margin: 215px auto 250px auto;
 	width:50px;
+	font-size: 75px;
+	color: white;
+	font-family: Arial;
+	text-align: center;
 
 }
 
@@ -128,22 +140,31 @@
 	background-color: #E3ECF3;
 	height: 190px;
 }
+
+
+
 .icons{
 
 	/*background-color: #FFFFFF;*/
 	height: 70px;
-	margin: 40px 75px 40px 75px;
+	margin: 40px auto 40px auto;
+	width: 100%;
 
 
 	}
 
+
+
 .grayBox1{
-	width: 20%;
+	width: 12.5%; /*30px/*
+	/*margin: 0 auto;*/
 	background-color: #ffffff;
 	height: 70px;
+	/*float: left;*/
+	margin-left: 25%;
 	float: left;
+	
 
-	/*margin-top: 15px*/
 }
 
 .tablet{
@@ -153,13 +174,23 @@
 }
 
 .grayBox2{
-	width: 78%;
+	/*width: 68%;*/
 	/*background-color: #283041;*/
 	height: 70px;
-	float: right;
+	/*margin-left: 100px;*/
+	width: 37.5%; /*37.5?*/
+	padding-top: 10px;
+	float: left;
+
+	/*margin: 0 auto 0 auto;*/
 	/*padding-top: 20px;*/
-	margin-top: 10px;
-	border: none;
+	/*margin-top: 10px;*/
+	
+
+
+
+
+
 }
 
 .newspaper{
@@ -224,6 +255,42 @@
 	width: 65px;
 	background-color: #BCC8D0;
 	margin: 0 auto 10px auto;
+	opacity: 50%;
+	border-radius: 100px;
+}
+
+.lightbulb{
+
+	background: #BCC8D0 url("images/lightbulb.png") no-repeat center center;
+	background-size: 40px 40px;
+}
+
+.cloud{
+
+	background: #BCC8D0 url("images/cloud.png") no-repeat center center;
+	background-size: 40px 40px;
+}
+
+.code{
+
+	background: #BCC8D0 url("images/code.png") no-repeat center center;
+	background-size: 40px 40px;
+}
+
+.comments{
+
+	background: #BCC8D0 url("images/comments.png") no-repeat center center;
+	background-size: 40px 40px;
+}
+.gift{
+
+	background: #BCC8D0 url("images/gift.png") no-repeat center center;
+	background-size: 40px 40px;
+}
+.globe{
+
+	background: #BCC8D0 url("images/globe.png") no-repeat center center;
+	background-size: 40px 40px;
 }
 
 .ltgrayBox2{
@@ -260,7 +327,8 @@
 
 	height: 160px;
 	padding-top: 20px;
-	background-color: #E3ECF3
+	background-color: #E3ECF3;
+	padding-bottom: 20px;
 }
 
 .btn2{
@@ -268,7 +336,7 @@
 	width:205px;
 	height: 40px;
 	background-color: #2377B5;
-	margin: 30px auto;
+	margin: 20px auto;
 	/*border: 1px solid black;*/
 	text-align: center;
 	color: white;
@@ -283,7 +351,7 @@
 	color: #324155;
 	text-align: center;
 	font-size: 25px;
-	padding: 0px 50px 10px 50px;
+	padding: 20px 50px 10px 50px;
 
 
 }
@@ -315,9 +383,15 @@
 
 .logo{
 
-	width: 135px;
-	height: 25px;
+	width: 290px;
+	height: 52px;
 	/*background-color: #FFFFFF;*/
 	margin: 25px auto 0 auto;
+}
+
+.automattic{
+
+	background:  url("images/automattic.png") no-repeat center center;
+	background-size: 167px 30px;
 }
 
