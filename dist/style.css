@@ -56,7 +56,11 @@ a:hover .headBlue {
 .main {
   height: 1220px;
   padding-top: 170px;
-  background: #283041 url("images/crowd.jpg") no-repeat center center; }
+  background: #283041 url("images/crowd.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 
 .main .text1 {
   color: white;
@@ -174,9 +178,10 @@ a:hover .headBlue {
 .blockHolder .whiteBlock {
   background-color: #ffffff;
   height: 215px;
-  margin: 0px 10px 30px 10px;
+  margin: 0px auto 30px auto;
   padding-top: 20px;
-  font-family: sans-serif; }
+  font-family: sans-serif;
+  max-width: 600px; }
 
 .blockHolder .whiteBlock .ltgrayBox1 {
   height: 65px;

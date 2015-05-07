@@ -94,6 +94,10 @@ a:hover .headBlue{
 	height: 1220px;
 	padding-top: 170px;
 	background: $darkblue url("images/crowd.jpg") no-repeat center center ;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
 
 		.text1{
@@ -105,6 +109,7 @@ a:hover .headBlue{
 
 
 		}
+
 
 
 
@@ -263,9 +268,10 @@ a:hover .headBlue{
 
 		background-color: $white;
 		height: 215px;
-		margin: 0px 10px 30px 10px;
+		margin: 0px auto 30px auto;
 		padding-top: 20px;
 		font-family: sans-serif;
+		max-width: 600px;
 
 
 		.ltgrayBox1{
